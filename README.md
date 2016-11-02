@@ -22,3 +22,4 @@ $ sudo docker images
 $ sudo docker run --name nginx-example -d -p 8080:80 journeycheng/nginx_temple
 ```
 启动成功后，在浏览器上http://host-ip:8080 就可以看到index.html的界面了
+![1](nginx_template/raw/屏幕快照 2016-11-02 下午3.04.13.png)
