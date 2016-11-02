@@ -8,8 +8,9 @@ $ mkdir website
  把Dockerfile文件放在nginx文件夹下，index.html放在website文件加下
  
 ## step 2
-在nginx目录下，通过Dockerfile创建新镜像
+切换到nginx目录下，通过Dockerfile创建新镜像
 ```
 $ sudo docker build -t journeycheng/nginx_template .
 ```
+执行成功的话，可以查看到journeycheng/nginx_template的新镜像
 
